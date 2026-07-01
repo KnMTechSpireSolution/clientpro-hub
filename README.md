@@ -1,2 +1,3 @@
-# clientpro-hub
-CRM &amp; ERP System
+# ClientPro Hub
+
+Initial scaffold for GitHub and Netlify deployment.
