@@ -1,0 +1,1 @@
+const DB={init(){if(!localStorage.customers)localStorage.customers='[]';},customers(){return JSON.parse(localStorage.customers||'[]')},saveCustomers(d){localStorage.customers=JSON.stringify(d);}};DB.init();

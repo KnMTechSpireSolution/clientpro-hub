@@ -1,2 +1,1 @@
-# ClientPro Hub v1.1 Enterprise Framework
-GitHub and Netlify Ready.
+ClientPro Hub v1.2 MVP Core - Dashboard, Navigation, CRM, LocalStorage.
