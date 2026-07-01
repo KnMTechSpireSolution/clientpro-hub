@@ -1,1 +1,2 @@
-ClientPro Hub v1.2 MVP Core - Dashboard, Navigation, CRM, LocalStorage.
+ClientPro Hub v1.3 CRM Pro
+Includes Customer Profiles, Leads, Follow-Ups, Timeline and Financial Summary.
