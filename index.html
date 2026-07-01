@@ -1,1 +1,57 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>ClientPro Hub v1.4</title><link rel="stylesheet" href="css/app.css"></head><body><h1>ClientPro Hub v1.4 Commerce Core</h1><ul><li>Quotations</li><li>Delivery Orders</li><li>Invoices</li><li>Payments</li><li>Official Receipts</li><li>P&L Dashboard</li><li>PDF Preview Center</li></ul></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ClientPro Hub by K&M TechSpire Solution" />
+  <title>ClientPro Hub | K&M TechSpire Solution</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark">CP</div>
+        <div>
+          <h1>ClientPro Hub</h1>
+          <p>K&M TechSpire</p>
+        </div>
+      </div>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <button class="nav-link active" data-page="dashboard">Dashboard</button>
+        <button class="nav-link" data-page="crm">Customer CRM</button>
+        <button class="nav-link" data-page="commerce">Commerce Core</button>
+        <button class="nav-link" data-page="projects">Project Management</button>
+        <button class="nav-link" data-page="website">Website Builder</button>
+        <button class="nav-link" data-page="support">Support Center</button>
+        <button class="nav-link" data-page="assets">Asset Management</button>
+        <button class="nav-link" data-page="vendors">Vendor Management</button>
+        <button class="nav-link" data-page="employees">Employee Management</button>
+        <button class="nav-link" data-page="documents">Document Repository</button>
+        <button class="nav-link" data-page="reports">Reports & Analytics</button>
+        <button class="nav-link" data-page="settings">Settings</button>
+      </nav>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        <div>
+          <strong id="pageTitle">Dashboard</strong>
+          <span class="version-badge">v1.1 fixed</span>
+        </div>
+        <div class="top-actions">
+          <input id="globalSearch" class="search-box" type="search" placeholder="Search customers, invoices, projects..." />
+          <button class="primary-btn" id="quickCreateBtn">+ Create</button>
+        </div>
+      </header>
+
+      <section class="content-area" id="contentArea"></section>
+    </main>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
