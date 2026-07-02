@@ -1,20 +1,29 @@
-# ClientPro Hub v1.9 PDF & Document Engine
+# ClientPro Hub v2.0 QA — Full Project Package
 
-## Main Goal
-Adds a branded document preview engine for Commerce Core documents.
+This package contains the full GitHub-ready project structure requested by Mohan.
 
-## Included
-- All v1.8 combined CRM + Project + Commerce workflow
-- Professional document preview layout
-- Print-friendly document mode
-- K&M TechSpire branded document header
-- Quotation preview
-- Delivery Order preview
-- Invoice preview
-- Official Receipt preview
-- Customer Statement preview
-- WhatsApp message action
-- Company document settings saved in LocalStorage
+## Included folders
+- index.html
+- css/app.css
+- js/storage.js
+- js/app.js
+- docs/
+- modules/
+- templates/
+- assets/
 
-## Recommended Commit
-`Add v1.9 PDF and document engine`
+## Main Changes
+- Commerce Core separated into individual pages:
+  - Quotations
+  - Create Quotation
+  - Delivery Orders
+  - Invoices
+  - Payments
+  - Official Receipts
+  - Customer Statements
+- Create Quotation now supports multiple task/description line items.
+- Each line item supports qty, unit price, discount, tax and line total.
+- Quotation preview shows multiple line items.
+
+## Upload to GitHub
+Upload all extracted files and folders into the repository root.
