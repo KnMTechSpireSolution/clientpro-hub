@@ -1,1 +1,1 @@
-Place K&M TechSpire logo files here.
+Place logo files here.

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ClientPro Hub v2.0 QA — Full Project Package</title>
+  <title>ClientPro Hub v2.0 — Login Fix</title>
   <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
@@ -12,10 +12,12 @@
       <div class="logo" style="margin:auto">CP</div>
       <h1>ClientPro Hub</h1>
       <p>K&M TechSpire Solution</p>
-      <input value="mohan@knmtechspiresolution.com" aria-label="Email" />
-      <input type="password" value="admin123" aria-label="Password" />
+      <input id="loginUser" value="demo" placeholder="User ID" aria-label="User ID" />
+      <input id="loginPass" type="password" value="demo" placeholder="Password" aria-label="Password" />
       <button class="primary" style="width:100%;margin-top:14px" onclick="loginApp()">Login Demo</button>
-      <small>v2.0 QA — Full Project Package</small>
+      <button class="secondary" style="width:100%;margin-top:8px" onclick="skipLogin()">Skip Login</button>
+      <small>Demo login: demo / demo</small>
+      <p id="loginError" class="login-error"></p>
     </div>
   </div>
 
@@ -25,7 +27,7 @@
         <div class="logo">CP</div>
         <div>
           <h1>ClientPro Hub</h1>
-          <p>v2.0 QA Release</p>
+          <p>v2.0 Login Fix</p>
         </div>
       </div>
       <nav id="nav" class="nav"></nav>
@@ -35,7 +37,7 @@
       <header>
         <button class="menu-btn" onclick="sidebar.classList.toggle('open')">☰</button>
         <strong id="title">Dashboard</strong>
-        <span class="version">v2.0 QA — Full Project</span>
+        <span class="version">v2.0 Login Fix</span>
         <input placeholder="Search..." />
         <button class="primary" onclick="go('quotationCreate')">+ Quotation</button>
       </header>

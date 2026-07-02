@@ -1,1 +1,1 @@
-Place app icons here.
+Place icons here.

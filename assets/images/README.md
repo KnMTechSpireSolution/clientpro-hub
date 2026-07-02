@@ -1,1 +1,1 @@
-Place app images here.
+Place images here.

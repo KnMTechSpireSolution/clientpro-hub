@@ -1,3 +1,2 @@
 # crm
-
-Module route is implemented in js/app.js.
+Route implemented in js/app.js.
