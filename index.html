@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ClientPro Hub v2.0 — Login Fix</title>
+  <title>ClientPro Hub v2.0 — Full GitHub Ready</title>
   <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
@@ -14,8 +14,8 @@
       <p>K&M TechSpire Solution</p>
       <input id="loginUser" value="demo" placeholder="User ID" aria-label="User ID" />
       <input id="loginPass" type="password" value="demo" placeholder="Password" aria-label="Password" />
-      <button class="primary" style="width:100%;margin-top:14px" onclick="loginApp()">Login Demo</button>
-      <button class="secondary" style="width:100%;margin-top:8px" onclick="skipLogin()">Skip Login</button>
+      <button class="primary" id="loginButton" type="button" style="width:100%;margin-top:14px">Login Demo</button>
+      <button class="secondary" id="skipLoginButton" type="button" style="width:100%;margin-top:8px">Skip Login</button>
       <small>Demo login: demo / demo</small>
       <p id="loginError" class="login-error"></p>
     </div>
@@ -27,19 +27,18 @@
         <div class="logo">CP</div>
         <div>
           <h1>ClientPro Hub</h1>
-          <p>v2.0 Login Fix</p>
+          <p>v2.0 GitHub Ready</p>
         </div>
       </div>
       <nav id="nav" class="nav"></nav>
     </aside>
-
     <main>
       <header>
-        <button class="menu-btn" onclick="sidebar.classList.toggle('open')">☰</button>
+        <button class="menu-btn" type="button" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
         <strong id="title">Dashboard</strong>
-        <span class="version">v2.0 Login Fix</span>
+        <span class="version">v2.0 Full GitHub Ready</span>
         <input placeholder="Search..." />
-        <button class="primary" onclick="go('quotationCreate')">+ Quotation</button>
+        <button class="primary" type="button" onclick="if(typeof go==='function'){go('quotationCreate')}">+ Quotation</button>
       </header>
       <section id="app"></section>
     </main>

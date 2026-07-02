@@ -1,3 +1,5 @@
-# ClientPro Hub v2.0 Login Fix Full Project Package
+# ClientPro Hub v2.0 Full GitHub Ready
 
-Demo login fixed. Use demo / demo or Skip Login.
+Full project package with login fix and corrected app.js. Upload all extracted files/folders to GitHub repo root.
+
+Login: demo / demo
