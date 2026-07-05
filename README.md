@@ -1,15 +1,18 @@
-# ClientPro Hub v2.0 — Rebuild From Scratch
+# ClientPro Hub v2.0 — Unified Commerce Core
 
-This is a fresh clean rebuild after the previous app crash.
+This version improves the app by combining all Commerce functions under one Commerce Core sidebar module.
 
-## Key points
-- Login removed.
-- Dashboard loads immediately.
-- All sidebar modules are clickable.
-- All submodule buttons are clickable.
-- Templates module is clickable.
-- Quotation, Delivery Order, Invoice, Receipt and Customer Statement templates can be previewed.
-- Create Quotation supports multiple task/description line items.
+## Important UI Change
+The sidebar now has only one Commerce Core item. Inside Commerce Core, the following are available as tabs:
+- Overview
+- Create Quotation
+- Quotations
+- Delivery Orders
+- Invoices
+- Payments
+- Receipts
+- Statements
+- Templates
 
 ## Upload
-Extract this ZIP and upload all files/folders to the GitHub repo root.
+Extract ZIP and upload all files/folders to GitHub repo root.
