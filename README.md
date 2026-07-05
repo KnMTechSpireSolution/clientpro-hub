@@ -1,3 +1,3 @@
-# ClientPro Hub v2.0 - CRM Import + Commerce Core Fixed
+# ClientPro Hub v2.0 - Commerce Core Base44 Logic Adapted
 
-This build keeps imported CRM data and restores Commerce Core active tabs, document templates, and all commerce CRUD/flow functions.
+Base44 JSX quotation logic has been reviewed and adapted to the current Netlify/localStorage setup.
