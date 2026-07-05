@@ -1,3 +1,3 @@
-# ClientPro Hub v2.0 - Commerce Core Full Restore
+# ClientPro Hub v2.0 - Commerce Core Approved Restore
 
-Commerce Core full menu and templates restored per approved baseline. Customer CRM, Vendor Management, and P&L Management retained.
+Commerce Core restored to approved committed functionality with bank details and terms features. Customer CRM, Vendor Management and P&L Management retained.
