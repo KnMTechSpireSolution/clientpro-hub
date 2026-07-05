@@ -1,2 +1,2 @@
 # audit
-Route implemented in js/app.js.
+Implemented in js/app.js.

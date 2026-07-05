@@ -3,31 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ClientPro Hub v2.0 — All Modules & Templates Accessible</title>
+  <title>ClientPro Hub v2.0 - Rebuild From Scratch</title>
   <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
-  <div id="appShell" class="app-shell">
+  <div class="app-shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="logo">CP</div>
+        <div class="brand-logo">CP</div>
         <div>
           <h1>ClientPro Hub</h1>
-          <p>v2.0 No Login Build</p>
+          <p>v2.0 Rebuild</p>
         </div>
       </div>
       <nav id="nav" class="nav"></nav>
     </aside>
 
-    <main>
-      <header>
-        <button class="menu-btn" type="button" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
-        <strong id="title">Dashboard</strong>
-        <span class="version">v2.0 Accessible Modules</span>
-        <input id="globalSearch" placeholder="Search customers, invoices, projects..." />
-        <button class="primary" type="button" onclick="go('quotationCreate')">+ Quotation</button>
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn" type="button">☰</button>
+        <div>
+          <strong id="pageTitle">Dashboard</strong>
+          <span class="version-pill">No Login Build</span>
+        </div>
+        <input id="globalSearch" class="global-search" placeholder="Search customers, invoices, projects..." />
+        <button class="primary" type="button" data-route="quotation-create">+ Quotation</button>
       </header>
-      <section id="app"></section>
+      <section id="app" class="content"></section>
     </main>
   </div>
 

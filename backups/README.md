@@ -1,1 +1,1 @@
-Exported backup JSON files can be stored here if needed.
+Place exported JSON backup files here.

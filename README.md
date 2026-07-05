@@ -1,23 +1,15 @@
-# ClientPro Hub v2.0 — All Modules & Templates Accessible
+# ClientPro Hub v2.0 — Rebuild From Scratch
 
-This build removes the login page and loads directly to the dashboard.
+This is a fresh clean rebuild after the previous app crash.
 
-## Main Requirement Covered
+## Key points
+- Login removed.
+- Dashboard loads immediately.
 - All sidebar modules are clickable.
-- All module sub-buttons are clickable.
-- All document templates are accessible when clicked.
-- Commerce templates can be previewed from the Document Templates page.
-
-## Included
-- index.html
-- css/app.css
-- js/app.js
-- js/storage.js
-- docs/
-- modules/
-- templates/
-- assets/
-- backups/
+- All submodule buttons are clickable.
+- Templates module is clickable.
+- Quotation, Delivery Order, Invoice, Receipt and Customer Statement templates can be previewed.
+- Create Quotation supports multiple task/description line items.
 
 ## Upload
-Extract ZIP and upload all files/folders to GitHub repo root.
+Extract this ZIP and upload all files/folders to the GitHub repo root.
