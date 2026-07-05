@@ -1,3 +1,2 @@
-# ClientPro Hub v2.0 - P&L Management Added
-
-Customer CRM and Commerce Core are retained. New P&L Management menu added with Sales, Expenses, Project Costing, Invoice Tracker, Monthly P&L and Annual P&L reports.
+# ClientPro Hub v2.0 - Vendor Management Added
+Vendor Management added and connected to P&L Management Expenses for expense and purchasing tracking. Commerce Core and P&L menus preserved.
