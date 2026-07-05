@@ -1,2 +1,3 @@
-# ClientPro Hub v2.0 - CRM Import CRUD
-Imported Customer CRM data from Excel files and added CRM/Commerce CRUD.
+# ClientPro Hub v2.0 - CRM Import + Commerce Core Fixed
+
+This build keeps imported CRM data and restores Commerce Core active tabs, document templates, and all commerce CRUD/flow functions.
