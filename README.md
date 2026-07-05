@@ -1,3 +1,3 @@
-# ClientPro Hub v2.0 - Commerce Core Restore Fix
+# ClientPro Hub v2.0 - Commerce Core Full Restore
 
-Commerce Core sidebar routing restored. Customer CRM, Vendor Management, and P&L Management retained.
+Commerce Core full menu and templates restored per approved baseline. Customer CRM, Vendor Management, and P&L Management retained.
