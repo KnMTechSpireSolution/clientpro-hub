@@ -1,2 +1,2 @@
-# ClientPro Hub v2.0 - Vendor Management Added
-Vendor Management added and connected to P&L Management Expenses for expense and purchasing tracking. Commerce Core and P&L menus preserved.
+# ClientPro Hub v2.0 - Vendor Gadget Brands and Monthly P&L Filter
+Added Gadget & Consumer Tech catalog brands to Vendor Management and added calendar month selection to Monthly P&L.
