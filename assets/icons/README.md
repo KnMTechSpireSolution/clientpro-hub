@@ -1,1 +1,1 @@
-Place icons files here.
+Place icons here.

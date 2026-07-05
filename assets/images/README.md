@@ -1,1 +1,1 @@
-Place images files here.
+Place images here.

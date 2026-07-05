@@ -1,5 +1,23 @@
-# ClientPro Hub v2.0 Full GitHub Ready
+# ClientPro Hub v2.0 — All Modules & Templates Accessible
 
-Full project package with login fix and corrected app.js. Upload all extracted files/folders to GitHub repo root.
+This build removes the login page and loads directly to the dashboard.
 
-Login: demo / demo
+## Main Requirement Covered
+- All sidebar modules are clickable.
+- All module sub-buttons are clickable.
+- All document templates are accessible when clicked.
+- Commerce templates can be previewed from the Document Templates page.
+
+## Included
+- index.html
+- css/app.css
+- js/app.js
+- js/storage.js
+- docs/
+- modules/
+- templates/
+- assets/
+- backups/
+
+## Upload
+Extract ZIP and upload all files/folders to GitHub repo root.

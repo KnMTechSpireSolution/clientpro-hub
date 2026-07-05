@@ -3,42 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ClientPro Hub v2.0 — Full GitHub Ready</title>
+  <title>ClientPro Hub v2.0 — All Modules & Templates Accessible</title>
   <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
-  <div id="loginScreen" class="login">
-    <div class="login-card">
-      <div class="logo" style="margin:auto">CP</div>
-      <h1>ClientPro Hub</h1>
-      <p>K&M TechSpire Solution</p>
-      <input id="loginUser" value="demo" placeholder="User ID" aria-label="User ID" />
-      <input id="loginPass" type="password" value="demo" placeholder="Password" aria-label="Password" />
-      <button class="primary" id="loginButton" type="button" style="width:100%;margin-top:14px">Login Demo</button>
-      <button class="secondary" id="skipLoginButton" type="button" style="width:100%;margin-top:8px">Skip Login</button>
-      <small>Demo login: demo / demo</small>
-      <p id="loginError" class="login-error"></p>
-    </div>
-  </div>
-
-  <div id="appShell" class="app-shell hidden">
+  <div id="appShell" class="app-shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
         <div class="logo">CP</div>
         <div>
           <h1>ClientPro Hub</h1>
-          <p>v2.0 GitHub Ready</p>
+          <p>v2.0 No Login Build</p>
         </div>
       </div>
       <nav id="nav" class="nav"></nav>
     </aside>
+
     <main>
       <header>
         <button class="menu-btn" type="button" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
         <strong id="title">Dashboard</strong>
-        <span class="version">v2.0 Full GitHub Ready</span>
-        <input placeholder="Search..." />
-        <button class="primary" type="button" onclick="if(typeof go==='function'){go('quotationCreate')}">+ Quotation</button>
+        <span class="version">v2.0 Accessible Modules</span>
+        <input id="globalSearch" placeholder="Search customers, invoices, projects..." />
+        <button class="primary" type="button" onclick="go('quotationCreate')">+ Quotation</button>
       </header>
       <section id="app"></section>
     </main>
