@@ -1,2 +1,2 @@
-# ClientPro Hub v2.0 - Commerce Invoice Fix
-Line item input focus fixed, quotation payment terms removed, invoice/proforma settings added.
+# ClientPro Hub v2.0 - Commerce Reference and Statement Fix
+Customer Statement preview fixed. Delivery Order Quotation Ref now displays QT number, not internal ID.
